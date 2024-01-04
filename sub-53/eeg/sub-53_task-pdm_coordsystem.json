@@ -1,0 +1,24 @@
+{
+"EEGCoordinateSystem": "CapTrak",
+"EEGCoordinateUnits": "mm",
+"EEGCoordinateSystemDescription": "Native space from acpc realigned T1w",
+"AnatomicalLandmarkCoordinates": { 
+"NAS": [
+0.177,
+-78.162,
+79.9523
+],
+"LPA": [
+79.9159,
+-25.01,
+-24.985
+],
+"RPA": [
+-39.876,
+-39.696,
+-38.217
+]
+},
+"AnatomicalLandmarkCoordinateSystem": "CapTrak",
+"AnatomicalLandmarkCoordinateUnits": "mm" 
+}

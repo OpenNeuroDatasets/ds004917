@@ -1,0 +1,58 @@
+{
+  "onset": {
+    "Description": "onset of the stimuli",
+    "Units": "second"
+  },
+  "duration": {
+    "Description": "duration of the code",
+    "Units": "miliseconds"
+  },
+  "value": {
+    "Description": "Code of the stimulus type {9,10,20,30,31,40}",
+    "Levels": {
+      "s__9": "Presentation of payoff of both options",
+      "s_10": "Presentation of the probablity of both options",
+      "s_20": "Beginig of the waiting time for the result",
+      "s_31": "Feedback: positive or win",
+      "s_30": "Feedback: negative or no win"
+    }
+  },
+  "responce": {
+    "Description": "responce or participnat's selection {0,1} ",
+    "Levels": {
+      "s__1": "left option",
+      "s__2": "right option"
+    }
+  },
+  "rt": {
+    "Description": "reaction time",
+    "Units": "miliseconds"
+  },
+  "good": {
+    "Description": "trials correctly presented on the screen {0,1}",
+    "Levels": {
+      "v_1": "correctly presented ",
+      "v_0": "non correctly presented "
+    }
+  },
+  "a": {
+    "Description": "ambiguity area as a proportion of the bar [0 0.8] ",
+    "Units": "Proportion"
+  },
+  "bias": {
+    "Description": "Bias in the actual division of the option behind the mask: 0 indicates the left extreme, 0.5 in the middle of the mask, and 1 on the right extreme.",
+    "Units": "Proportion"
+  },
+  "p": {
+    "Description": "Actual probability [0 1] of the left option, the right option takes the value of (1-p).",
+    "Units": "Proportion"
+  },
+  "pv": {
+    "Description": "Visible probability [0 1] of the left option, that is, witho take into the accout the hidden area (a). [ pv*(1-a) + (1-pv)*(1-a) + a = 1 ] and  [pv*(1-a) + (bias)*a = p ]. The right option takes the value of (1-pv).",
+    "Units": "Proportion"
+  },
+  "ronda": {
+    "Description": "round or trial number ",
+    "Units": "count"
+  }
+}
