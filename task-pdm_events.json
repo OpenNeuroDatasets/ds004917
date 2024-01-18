@@ -8,31 +8,31 @@
     "Units": "miliseconds"
   },
   "value": {
-    "Description": "Code of the stimulus type {9,10,20,30,31,40}",
+    "Description": "Code for the stimulus type {9, 10, 20, 30, 31, 40}",
     "Levels": {
-      "s__9": "Presentation of payoff of both options",
-      "s_10": "Presentation of the probablity of both options",
-      "s_20": "Beginig of the waiting time for the result",
-      "s_31": "Feedback: positive or win",
-      "s_30": "Feedback: negative or no win"
+      "s__9": "Presentation of the payoff for both options.",
+      "s_10": "Presentation of the probability for both options.",
+      "s_20": "Beginning of the waiting time for the result.",
+      "s_31": "Feedback: Positive or Win.",
+      "s_30": "Feedback: Negative or No Win."
     }
   },
   "responce": {
     "Description": "responce or participnat's selection {0,1} ",
     "Levels": {
-      "s__1": "left option",
-      "s__2": "right option"
+      "s__1": "Left option",
+      "s__2": "Right option"
     }
   },
   "rt": {
     "Description": "reaction time",
-    "Units": "miliseconds"
+    "Units": "Miliseconds"
   },
   "good": {
     "Description": "trials correctly presented on the screen {0,1}",
     "Levels": {
-      "v_1": "correctly presented ",
-      "v_0": "non correctly presented "
+      "v_1": "Correctly presented ",
+      "v_0": "Non correctly presented "
     }
   },
   "a": {
@@ -54,5 +54,25 @@
   "ronda": {
     "Description": "round or trial number ",
     "Units": "count"
+  },
+  "TMSips": {
+    "Description": "if eeg/TMS session, a dummy variable [0 1] indicating TMS over intraparietal sulcus ",
+    "Units": "dummy"
+  },
+  "TMSppc": {
+    "Description": "in eeg/TMS session, a dummy variable [0 1] indicating TMS over posterior parietal cortex",
+    "Units": "dummy"
+  },
+  "TMSvertex": {
+    "Description": "in eeg/TMS session, a dummy variable [0 1] indicating TMS over vertex",
+    "Units": "dummy"
+  },
+  "delta": {
+    "Description": "in the eeg sessions, indicate de discrepanci between the time in the computer of stimuli presentation and the reading of the code in the eeg recording computer",
+    "Units": "miliseconds"
+  },
+  "fixed": {
+    "Description": "in the eeg sessions, a dummy variable [0 1] indicating that the stimuli code was lost in the eeg recording but was recovery from the coputer of the stimuli presentation",
+    "Units": "dummy"
   }
 }
