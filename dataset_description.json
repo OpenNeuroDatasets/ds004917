@@ -4,10 +4,10 @@
   "DatasetType": "raw",
   "License": "",
   "Acknowledgements": "",
-  "HowToAcknowledge": "cite: ",
+  "HowToAcknowledge": "cite: Valdebenito-Oyarzo et al. (2024) Plos Biology, doi:10.1371/journal.pbio.3002452",
   "SourceDatasets": [
     {
-      "DOI": "",
+      "DOI": "10.18112/openneuro.ds004917.v1.0.0",
       "Version": "1.0"
     }
   ],
