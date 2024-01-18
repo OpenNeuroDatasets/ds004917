@@ -1,4 +1,4 @@
-onset	duration	value	responce	rt	good	a	bias	p	pv	ronda
+onset	duration	value	response	rt	good	a	bias	p	pv	ronda
 8.4713	1	9	-99	-99	1	n/a	n/a	n/a	n/a	n/a
 9.4869	1	10	1	6119	1	0	0	0.7	0.7	1
 15.6137	1	20	3	1578.1	1	n/a	n/a	n/a	n/a	n/a
