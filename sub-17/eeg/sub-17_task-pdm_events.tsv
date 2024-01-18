@@ -1,4 +1,4 @@
-onset	duration	value	responce	rt	good	TMSips	TMSppc	TMSvertex	a	bias	p	pv	ronda
+onset	duration	value	response	rt	good	TMSips	TMSppc	TMSvertex	a	bias	p	pv	ronda
 27.8096	1	10	1995.2	1995.2	1	0	1	0	0	0	0.8	0.8	1
 29.8096	1	20	n/a	n/a	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 31.8026	1	80	n/a	n/a	1	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
