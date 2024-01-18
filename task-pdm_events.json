@@ -17,8 +17,8 @@
       "s_30": "Feedback: Negative or No Win."
     }
   },
-  "responce": {
-    "Description": "responce or participnat's selection {0,1} ",
+  "response": {
+    "Description": "Response or participant's selection {0, 1}.",
     "Levels": {
       "s__1": "Left option",
       "s__2": "Right option"
@@ -29,50 +29,50 @@
     "Units": "Miliseconds"
   },
   "good": {
-    "Description": "trials correctly presented on the screen {0,1}",
+    "Description": "Trials correctly presented on the screen {0, 1}.",
     "Levels": {
       "v_1": "Correctly presented ",
       "v_0": "Non correctly presented "
     }
   },
   "a": {
-    "Description": "ambiguity area as a proportion of the bar [0 0.8] ",
+    "Description": "Ambiguity area as a proportion of the bar [0, 0.8].",
     "Units": "Proportion"
   },
   "bias": {
-    "Description": "Bias in the actual division of the option behind the mask: 0 indicates the left extreme, 0.5 in the middle of the mask, and 1 on the right extreme.",
+    "Description": "Bias in the actual division of the option behind the mask: 0 indicates the left extreme, 0.5 represents the middle of the mask, and 1 indicates the right extreme.",
     "Units": "Proportion"
   },
   "p": {
-    "Description": "Actual probability [0 1] of the left option, the right option takes the value of (1-p).",
+    "Description": "Actual probability [0, 1] of the left option, with the right option taking the value of (1 - p).",
     "Units": "Proportion"
   },
   "pv": {
-    "Description": "Visible probability [0 1] of the left option, that is, witho take into the accout the hidden area (a). [ pv*(1-a) + (1-pv)*(1-a) + a = 1 ] and  [pv*(1-a) + (bias)*a = p ]. The right option takes the value of (1-pv).",
+    "Description": "Visible probability [0, 1] of the left option, that is, without taking into account the hidden area (a). [pv * (1 - a) + (1 - pv) * (1 - a) + a = 1] and [pv * (1 - a) + (bias) * a = p]. The right option takes the value of (1 - pv).",
     "Units": "Proportion"
   },
   "ronda": {
-    "Description": "round or trial number ",
+    "Description": "Round or trial number.",
     "Units": "count"
   },
   "TMSips": {
-    "Description": "if eeg/TMS session, a dummy variable [0 1] indicating TMS over intraparietal sulcus ",
+    "Description": "For EEG/TMS sessions, a dummy variable {0, 1} indicating TMS over the intraparietal sulcus.",
     "Units": "dummy"
   },
   "TMSppc": {
-    "Description": "in eeg/TMS session, a dummy variable [0 1] indicating TMS over posterior parietal cortex",
+    "Description": "For EEG/TMS sessions, a dummy variable {0, 1} indicating TMS over the posterior parietal cortex.\"",
     "Units": "dummy"
   },
   "TMSvertex": {
-    "Description": "in eeg/TMS session, a dummy variable [0 1] indicating TMS over vertex",
+    "Description": "For eeg/TMS sessions, a dummy variable {0, 1} indicating TMS over the vertex.",
     "Units": "dummy"
   },
   "delta": {
-    "Description": "in the eeg sessions, indicate de discrepanci between the time in the computer of stimuli presentation and the reading of the code in the eeg recording computer",
+    "Description": "For EEG sessions, indicate the discrepancy between the time on the computer during stimuli presentation and the time recorded by the EEG recording computer",
     "Units": "miliseconds"
   },
   "fixed": {
-    "Description": "in the eeg sessions, a dummy variable [0 1] indicating that the stimuli code was lost in the eeg recording but was recovery from the coputer of the stimuli presentation",
+    "Description": "For the EEG sessions, a dummy variable {0, 1} indicating that the stimuli code was lost in the EEG recording (.vmrk) but was recovered from the computer of the stimuli presentation.",
     "Units": "dummy"
   }
 }
