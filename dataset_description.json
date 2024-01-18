@@ -1,32 +1,29 @@
 {
-    "Name": "Probability Decision-making Task with ambiguity",
-    "BIDSVersion": "1.9.0",
-    "DatasetType": "raw",
-    "License": "CC0",
-    "Acknowledgements": "",
-    "HowToAcknowledge": "cite: ",
-    "SourceDatasets": [
-        {
-            "DOI": "",
-            "Version": "1.0"
-        }
-    ],
-    "HEDVersion": "",
-    "Funding": [
-        "ANID FONDECYT 11140535",
-        "ANID FONDECYT 1181295",
-        "ANID FONDECYT 1211227",
-        "ANID FONDEQUIP EQM150076"
-    ],
-    "Authors": [
-        "Alejandra Figueroa-Vargas",
-        "Gabriela Valdebenito-Oyarzo",
-        "María Paz Martínez-Molina",
-        "Francisco Zamorano",
-        "Pablo Billeke"
-    ],
-    "ReferencesAndLinks": [
-        "Valdebenito-Oyarzo et al. (2024) Plos Biology, doi:10.1371/journal.pbio.3002452"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds004917.v1.0.0"
+  "Name": "Probability Decision-making Task with ambiguity",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "License": "",
+  "Acknowledgements": "",
+  "HowToAcknowledge": "cite: ",
+  "SourceDatasets": [
+    {
+      "DOI": "",
+      "Version": "1.0"
+    }
+  ],
+  "HEDVersion": "",
+  "Funding": [
+    "ANID FONDECYT 11140535",
+    "ANID FONDECYT 1181295",
+    "ANID FONDECYT 1211227",
+    "ANID FONDEQUIP EQM150076"
+  ],
+  "Authors": [
+    "Alejandra Figueroa-Vargas",
+    "Gabriela Valdebenito-Oyarzo",
+    "María Paz Martínez-Molina",
+    "Francisco Zamorano",
+    "Pablo Billeke"
+  ],
+  "ReferencesAndLinks": ["Valdebenito-Oyarzo et al. (2024) Plos Biology, doi:10.1371/journal.pbio.3002452"]
 }
