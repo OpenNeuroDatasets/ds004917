@@ -10,18 +10,18 @@
   "value": {
     "Description": "Code for the stimulus type {9, 10, 20, 30, 31, 40}",
     "Levels": {
-      "s__9": "Presentation of the payoff for both options.",
-      "s_10": "Presentation of the probability for both options.",
-      "s_20": "Beginning of the waiting time for the result.",
-      "s_31": "Feedback: Positive or Win.",
-      "s_30": "Feedback: Negative or No Win."
+      "9": "Presentation of the payoff for both options.",
+      "10": "Presentation of the probability for both options.",
+      "20": "Beginning of the waiting time for the result.",
+      "31": "Feedback: Positive or Win.",
+      "30": "Feedback: Negative or No Win."
     }
   },
   "response": {
     "Description": "Response or participant's selection {0, 1}.",
     "Levels": {
-      "s__1": "Left option",
-      "s__2": "Right option"
+      "1": "Left option",
+      "2": "Right option"
     }
   },
   "rt": {
@@ -31,8 +31,8 @@
   "good": {
     "Description": "Trials correctly presented on the screen {0, 1}.",
     "Levels": {
-      "v_1": "Correctly presented ",
-      "v_0": "Non correctly presented "
+      "1": "Correctly presented ",
+      "0": "Non correctly presented "
     }
   },
   "a": {
