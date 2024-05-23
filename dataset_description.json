@@ -32,5 +32,6 @@
     ],
     "EthicsApprovals": [
         "IRB #2020-67 Comite Etico Cientifico, Universidad del Desarrollo, Chile (https://medicina.udd.cl/comite-etico-cientifico/)"
-    ]
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds004917.v1.0.1"
 }
